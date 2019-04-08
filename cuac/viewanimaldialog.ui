@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewAnimalDialog</class>
+ <widget class="QDialog" name="ViewAnimalDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1126</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1106</width>
+        <height>574</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QScrollArea" name="scrollArea_2">
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents_3">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>1086</width>
+            <height>523</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="21" column="3">
+            <widget class="QLabel" name="feeding_cost">
+             <property name="text">
+              <string>Feeding Cost: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="3">
+            <widget class="QLabel" name="bad_habits">
+             <property name="text">
+              <string>Bad Habits: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="20" column="3">
+            <widget class="QLabel" name="intelligence_level">
+             <property name="text">
+              <string>Inetelligence Level: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QLabel" name="colour">
+             <property name="text">
+              <string>Colour:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="0">
+            <widget class="QLabel" name="temperament">
+             <property name="text">
+              <string>Temperament: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="21" column="2">
+            <widget class="QLabel" name="difficulty_to_train">
+             <property name="text">
+              <string>Difficulty to train: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QLabel" name="height">
+             <property name="text">
+              <string>Height:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="20" column="0">
+            <widget class="QLabel" name="current_health_condition">
+             <property name="text">
+              <string>Current Health Condition: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="18" column="0">
+            <widget class="QLabel" name="climate">
+             <property name="text">
+              <string>Climate: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLabel" name="specie">
+             <property name="text">
+              <string>Specie:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="2">
+            <widget class="QLabel" name="kid_friendly">
+             <property name="text">
+              <string>Kid friendly: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="18" column="3">
+            <widget class="QLabel" name="neatness">
+             <property name="text">
+              <string>Neatness: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="3">
+            <widget class="QLabel" name="prone_to_disease">
+             <property name="text">
+              <string>Prone to Disease: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="18" column="2">
+            <widget class="QLabel" name="level_of_care_needed">
+             <property name="text">
+              <string>Level of Care: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QLabel" name="age">
+             <property name="text">
+              <string>Age:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="20" column="2">
+            <widget class="QLabel" name="noise_level">
+             <property name="text">
+              <string>Noise Level: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="name">
+             <property name="text">
+              <string>Name:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" rowspan="4">
+            <widget class="QWidget" name="image" native="true"/>
+           </item>
+           <item row="13" column="2">
+            <widget class="QLabel" name="level_of_dependency">
+             <property name="text">
+              <string>Level of Dependency: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="3">
+            <widget class="QLabel" name="special_skill">
+             <property name="text">
+              <string>Special Skill:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLabel" name="breed">
+             <property name="text">
+              <string>Breed:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="0">
+            <widget class="QLabel" name="energy_level">
+             <property name="text">
+              <string>Energy Level: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLabel" name="weight">
+             <property name="text">
+              <string>Weight:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="21" column="0">
+            <widget class="QLabel" name="living_space_needed">
+             <property name="text">
+              <string>Living Space Needed: </string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="update_button">
+         <property name="text">
+          <string>UPDATE ANIMAL INFO</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>scrollArea</tabstop>
+  <tabstop>scrollArea_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

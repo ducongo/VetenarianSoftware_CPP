@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientProfileDialog</class>
+ <widget class="QDialog" name="ClientProfileDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>10</number>
+   </property>
+   <property name="topMargin">
+    <number>10</number>
+   </property>
+   <property name="rightMargin">
+    <number>10</number>
+   </property>
+   <property name="bottomMargin">
+    <number>10</number>
+   </property>
+   <property name="spacing">
+    <number>5</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>838</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="5" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLabel" name="specie">
+             <property name="text">
+              <string>Animal: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="breed">
+             <property name="text">
+              <string>Breed: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="special_requirement">
+             <property name="text">
+              <string>Special requirement: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="economic_background">
+             <property name="text">
+              <string>Economic background: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="activity_level">
+             <property name="text">
+              <string>Activily level: </string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QLabel" name="experience_with_animals">
+             <property name="text">
+              <string>Experience with animals: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="level_of_patience">
+             <property name="text">
+              <string>Level of patience: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="house_size">
+             <property name="text">
+              <string>House size: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="available_time">
+             <property name="text">
+              <string>Available time: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="strength">
+             <property name="text">
+              <string>Strength:</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QWidget" name="icon" native="true"/>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLabel" name="client_id">
+             <property name="text">
+              <string>Client ID: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="name">
+             <property name="text">
+              <string>Name: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="email">
+             <property name="text">
+              <string>Email: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="age">
+             <property name="text">
+              <string>Age: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="gender">
+             <property name="text">
+              <string>Gender: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="address">
+             <property name="text">
+              <string>Address: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="cell_phone">
+             <property name="text">
+              <string>Cell Phone: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="home_phone">
+             <property name="text">
+              <string>Home Phone: </string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="6" column="0">
+        <widget class="QPushButton" name="update_button">
+         <property name="text">
+          <string>UPDATE</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
