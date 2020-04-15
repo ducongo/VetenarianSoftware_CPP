@@ -1,2 +1,2 @@
 # comp3004IndustryIndustries
-Final project with only Parfait and Vistor
+An animal and owner matching system that can be ysed for animal rescue shelters wriyyen in C++
